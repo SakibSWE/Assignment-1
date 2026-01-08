@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+.logo{
+    width: 139px;
+
+}
+ .button .bnt{
+    background-color: #30B868;
+    border: none;
+    border-radius: 5px;
+    padding: 12.5px 16px ;
+    font-size: 16px;
+    font-weight:600;
+     color: #FFFFFf;
+    cursor: pointer;
+}
+/*main style*/
+header{
+    background-color: #ffffff30;
+    padding-top: 16px;
+
+}
+nav{
+    width: 83%;
+    max-width: 1340px;
+    /*border: 1px solid red;*/
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .list{
+    display: flex;
+    list-style: none;
+    gap: 32px;
+    align-items: center;
+}
+nav .list a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #000000;
+}
+#hero{
+  
+  background: url(../assets/hero-bg.png);
+  
+  height: 674px;
+  
+    display: flex;
+    /*border: 1px solid red;*/
+    justify-content: center;
+    align-items: center;
+    padding: 115.5px 120px 179.5px;
+
+}
+#hero .hero-container {
+    width: 83%;
+    max-width: 1360px;
+    margin: 0px auto;
+    text-align: center;
+    
+     padding: 131px 156px;
+}
+ .hero-container .hero-button .button{
+    border-radius: 20px;
+    padding: 8px 12px 8px 12px;
+    font-size: 16px;
+    color: #30B868;
+}
+
+.hero-container .head{
+    color: #30B868;
+    padding-bottom: 16px;
+}
+.hero-container .header{
+    color: #FFFFFf;
+   
+}
+.hero-container .content{
+    font-size: 18px;
+    color: #FFFFFf;
+    padding-bottom: 32px;
+}
+button i {
+  margin-right: 6px;
+}
+
+
+ .hero-button .button-1{
+    color: #FFFFFf;
+    background-color: #30B868;
+    font-size: 16px;
+    padding: 16.5px  16px 16.5px 16px;
+    border-radius: 5px;
+ }
+ .button-1 i{
+    margin-left: 12.5px;
+ }
+ 
+
+ .hero-button .button-2{
+    font-size: 16px;
+    padding: 16.5px  16px 16.5px 16px;
+    border-radius: 5px;
+    background: none;
+    color: #FFFFFf;
+    border-color: #FFFFFf;
+ }
+ .button-2 i{
+    margin-right: 10px;
+ }
