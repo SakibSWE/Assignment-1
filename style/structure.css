@@ -56,7 +56,6 @@ nav .list a{
   height: 674px;
   
     display: flex;
-    /*border: 1px solid red;*/
     justify-content: center;
     align-items: center;
     padding: 115.5px 120px 179.5px;
@@ -187,7 +186,7 @@ button i {
     text-align: center;
 
 }
-.Brain{
+.Brain {
     
     width: 83%;
     max-width: 1360px;
@@ -303,4 +302,64 @@ hr{
     margin-bottom: 30px;
     
 }
+#banner{
+    width: 83%;
+    max-width: 1360px;
+    height: 506px;
+    margin: 2px 120px 120px 120px;
+    justify-content: center;
+    background-color: #F7F6F2;
+}
+.banner-container .banner-heading{
+    width: 1280px;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 80px 40px 16px 80px;
+    display: flex;
+    justify-content: center;
 
+}
+.banner-container .banner-info{
+    max-width: 1280px;
+    line-height: 24px; 
+    font-size: 16px;
+    color: #627382;
+    text-align: center;
+    margin: 0px auto;
+    margin-bottom: 24px;
+    
+
+}
+.banner-button{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+    
+}
+
+   
+}
+ .button-section button i {
+  margin-right: 16px;
+}
+
+
+ .banner-button .button-section{
+    color: #FFFFFf;
+    background-color: #30B868;
+    font-size: 16px;
+    padding: 16.5px  16px 16.5px 16px;
+    border-radius: 5px;
+    box-shadow: 0px 10px 20px 0px ;
+    
+ }
+ .button-section  i{
+    margin-left: 10px;
+ }
+ .banner-container .last-info{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    text-align: center;
+    max-resolution: 0px auto;
+ }
